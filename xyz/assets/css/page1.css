@@ -1,6 +1,6 @@
 .mada{
 	font-size:5.8vw;
-	color:yellow;
+	color:white;
 		text-align: center;
 	font-family:futura;
 	animation:skew 3s infinite alternate;
@@ -10,7 +10,7 @@
 
 .date{
 	font-size:5.8vw;
-	color:yellow;
+	color:white;
 	text-align: center;
 	font-family:futura;
 	animation:skew 3s infinite alternate;
@@ -21,7 +21,7 @@
 
 .title{
 	font-size:7vw;
-	color:yellow;
+	color:white;
 	text-align: center;
 	font-family:futura;
 	animation:skewR 3s infinite alternate;
@@ -30,34 +30,91 @@
 }
 
 .mt{
+	padding: 20px;
 }
 
-.joke{
+.joke1{
+	color:black;
+	font-size:8vh;
+	font-family:futura;
+	text-align:center;
+	background-color:lime;
+	padding:5px;
+	vertical-align:bottom;
+	animation:skewR 3s infinite alternate;
+}
+
+.joke2{
+	color:black;
+	font-size:8vh;
+	font-family:futura;
+	text-align:center;
+	background-color:lime;
+	padding:5px;
+	vertical-align:bottom;
+	animation:skew 3s infinite alternate;
+}
+
+.joke3{
 	color:black;
 	font-size:12vh;
 	font-family:futura;
 	text-align:center;
-	background-color:yellow;
-	padding:40px;
-	vertical-align:bottom;
-
+	background-color:lime;
+	padding:5px;
+	vertical-align:bottom;	
+	animation:skewR 3s infinite alternate;
 
 }
 
 .word1{
-	color:lime;
+	color:yellow;
 	font-style:bold;
 	animation:skew 3s infinite alternate;
 }
 
 .word2{
-	color:lime;
+	color:yellow;
 	animation:skewR 3s infinite alternate;
 }
 
 .word3{
-	color:lime;
+	color:yellow;
 	animation:skew 3s infinite alternate;
+}
+
+.J31{
+	color:black;
+	font-size:12vh;
+	font-family:futura;
+	text-align:center;
+	background-color:lime;
+	padding:10px;
+	vertical-align:bottom;	
+	animation:skewR 3s infinite alternate;
+}
+
+.J32{
+	color:black;
+	font-size:12vh;
+	font-family:futura;
+	text-align:center;
+	background-color:lime;
+	padding:10px;
+	vertical-align:bottom;	
+	animation:skew 3s infinite alternate;
+}
+
+
+.J33{
+	color:black;
+	font-size:12vh;
+	font-family:futura;
+	text-align:center;
+	background-color:lime;
+	padding:10px;
+	vertical-align:bottom;	
+	animation:skewR 3s infinite alternate;
 }
 
 @keyframes skew {
