@@ -1,79 +1,87 @@
-.mada{
-  font-size:5.8vw;
-  color:yellow;
-    text-align: center;
-  font-family:futura;
-  animation:skew 3s infinite alternate;
-  background-color:lime;
-  padding:10px;
-}
-
-.date{
-  font-size:5.8vw;
-  color:yellow;
-  text-align: center;
-  font-family:futura;
-  animation:skew 3s infinite alternate;
-  background-color:lime;
-  padding:10px;
-
-}
-
-.title{
-  font-size:7vw;
-  color:yellow;
-  text-align: center;
-  font-family:futura;
-  animation:skewR 3s infinite alternate;
-  background-color:lime;
-  padding:20px;
-}
-
-.mt{
-}
-
 .joke{
-  color:black;
+  color:white;
   font-size:12vh;
   font-family:futura;
   text-align:center;
-  background-color:yellow;
-  padding:40px;
-  vertical-align:bottom;
-
-
+  background-color:blue;
 }
 
+.mt{
+  background-color:white;
+  height:4vh;
+}
+
+.mada{
+  font-family:futura;
+  font-size:5vw;
+  color:blue;
+  background-color:red;
+  padding:2h;
+    width:50vw;
+  text-align:center;
+  animation:move1 3s infinite alternate;
+}
+
+.title{
+  font-family:futura;
+  font-size:5vw;
+  color:blue;
+  background-color:red;
+  padding:2vh;
+  margin-right: auto;
+  margin-left: auto;
+    width:50vw;
+  text-align:center;
+}
+
+.date{
+  font-family:futura;
+  font-size:5vw;
+  color:blue;
+  background-color:red;
+  padding:2vh;
+  width:50vw;
+  text-align:center;
+  position:66vh;
+  animation:move2 3s infinite alternate;
+}
 .word1{
-  color:lime;
+  color:red;
   font-style:bold;
-  animation:skew 3s infinite alternate;
+
 }
 
 .word2{
-  color:lime;
-  animation:skewR 3s infinite alternate;
+  color:red;
+
 }
 
 .word3{
-  color:lime;
-  animation:skew 3s infinite alternate;
+  color:red;
 }
 
-@keyframes skew {
+@keyframes move1 {
   0% {
-    transform:skew(-40deg);
+    margin-right: auto;
+  }
+  50% {
+    margin-right: auto;
+    margin-left: auto;
   }
   100% {
-    transform:skew(40deg);
+    margin-left: auto;
   }
 }
-
-@keyframes skewR {
+@keyframes move2 {
   0% {
-    transform:skew(40deg);
+    margin-left: auto;
+  }
+  50% {
+    margin-right: auto;
+    margin-left: auto;
   }
   100% {
-    transform:skew(-40deg);
+    margin-right: auto;
   }
 }
+  
