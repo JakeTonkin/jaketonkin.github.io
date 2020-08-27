@@ -1,13 +1,30 @@
 
 
-h1 {
+.yo{
+  color:white;
+  text-align:left;
+  font-size:80px;
+  padding:20px;
+}
+
+.dude{
+  color:white;
+}
+
+.xyz{
+}
+
+.mt{
+  padding:20px;
+}
+
+.title{
   margin: 0;
   font-family: Helvetica,Arial,sans-serif;
   text-align: center;
-  font-size: 80px;
+  font-size: 75%;
   padding: 20px;
   color: white;
-  border: 5px solid white;
   position: sticky;
   text-shadow: 0 0.1em 20px rgba(0, 0, 0, 1), 0.05em -0.03em 0 rgba(0, 0, 0, 1),
     0.05em 0.005em 0 rgba(0, 0, 0, 1), 0em 0.08em 0 rgba(0, 0, 0, 1),
@@ -23,18 +40,19 @@ h1 {
   }
 
 span:first-child {
-	color: hotpink;
+  color: hotpink;
     animation: bopB 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) backwards infinite
       alternate;
       animation-delay: 0.5s
   }
   span:last-child {
-  	color: aqua;
+    color: aqua;
     animation: bopB 1s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards
       infinite alternate;
       animation-delay: 1.5s
   }
 }
+
 
 @keyframes bop {
   0% {
@@ -56,25 +74,29 @@ span:first-child {
   }
 }
 
-.me{
-font-family: Helvetica,Arial,sans-serif;
-	font-size: 60px;
-	color: white;
-}
-
 
 body {
-	background-color: white;
+  background-color: lime;
+  font-size: 200px;
 }
 
 a {
-	font-family: Helvetica,Arial,sans-serif;
-	font-size: 60px;
-	color: red;
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 80px;
+  color:white;
+  text-align: center;
+  text-shadow: 0 0.1em 20px rgba(0, 0, 0, 1), 0.05em -0.03em 0 rgba(0, 0, 0, 1),
+    0.05em 0.005em 0 rgba(0, 0, 0, 1), 0em 0.08em 0 rgba(0, 0, 0, 1),
+    0.05em 0.08em 0 rgba(0, 0, 0, 1), 0px -0.03em 0 rgba(0, 0, 0, 1),
+    -0.03em -0.03em 0 rgba(0, 0, 0, 1), -0.03em 0.08em 0 rgba(0, 0, 0, 1),
+    -0.03em 0 0 rgba(0, 0, 0, 1);
+    animation-delay: 4s;
+   }
+
+   .test{
+    font-size: 100px;
+    position: left:;
+   }
 }
 
-
-span {
-	color:red;
-}
 
