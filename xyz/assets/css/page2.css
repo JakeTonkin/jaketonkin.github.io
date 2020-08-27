@@ -1,14 +1,37 @@
-.joke{
+.joke1{
 	color:white;
-	font-size:12vh;
+	font-size:6vh;
+	padding:2vh;
+	width:50vw;
+	text-align:center;
+	animation:move1 3s infinite alternate;
+	font-family:futura;
+	text-align:center;
+	background-color:blue;
+}
+.joke2{
+	color:white;
+	font-size:6vh;
+	padding:2vh;
+	width:50vw;
+	text-align:center;
+	margin-right: auto;
+	margin-left: auto;
 	font-family:futura;
 	text-align:center;
 	background-color:blue;
 }
 
-.mt{
-	background-color:white;
-	height:4vh;
+.joke3{
+	color:white;
+	font-size:6vh;
+	padding:2vh;
+	width:50vw;
+	text-align:center;
+	animation:move2 3s infinite alternate;
+	font-family:futura;
+	text-align:center;
+	background-color:blue;
 }
 
 .mada{
@@ -85,3 +108,6 @@
 	}
 }
 	
+body {
+	background-color: white;
+}
