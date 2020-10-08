@@ -1,0 +1,83 @@
+
+.title {
+	font-family:Meatball;
+	font-size:8vh;
+	text-align:center;
+	padding-top:25vh;
+	color:white;
+	text-shadow: 2px 2px 9px black;
+}
+
+/*Better way to do the padding?? Show how it resizes poorly*/
+
+/*ADD BACKGROUND IMAGE*/
+
+body {
+	font-family:Meatball;
+	color:white;
+	font-size:18px;
+	text-shadow: 2px 2px 9px black;
+	background-image: url(../images/BG.png);
+	background-size:100%;
+
+}
+
+.nav {
+	display:flex;
+	justify-content:center;
+	padding-left:20vh;
+	padding-right:20vh;
+	position:fixed;
+}
+
+.btn {
+}
+
+.btn img {
+	max-width:100%;
+	margin:auto;
+}
+
+/*BUTTONS GET REALLY SMALL*/
+
+.btn:hover{
+	color:white;
+	cursor:pointer;
+}
+
+
+.cont {
+	display:flex;
+	flex-wrap:wrap;
+	padding-left:120px;
+	padding-right:120px;
+	align-items:center;
+}
+
+.item{
+	width:33.33%;
+	padding:12px;
+	display:block;
+	text-align:center;
+}
+
+/*MIX UP THE GRID*/
+
+.item.down {
+}
+
+.item img {
+	max-width:100%;
+	margin:auto;
+	box-shadow: 2px 2px 20px black;
+
+}
+
+.next {
+	text-align:center;
+	padding:10px;
+}
+
+.footer {
+	text-align:center;
+}
