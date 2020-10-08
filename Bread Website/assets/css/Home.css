@@ -1,0 +1,71 @@
+
+.title {
+	font-family:Meatball;
+	font-size:8vh;
+	text-align:center;
+	padding-top:25vh;
+	color:white;
+	text-shadow: 2px 2px 9px black;
+}
+
+/*Better way to do the padding?? Show how it resizes poorly*/
+
+/*ADD BACKGROUND IMAGE*/
+
+body {
+	font-family:Meatball;
+	color:white;
+	font-size:18px;
+	text-shadow: 2px 2px 9px black;
+	background-image: url(../images/BG.png);
+	background-size:100%;
+
+}
+
+.nav {
+	display:flex;
+	justify-content:center;
+	padding-left:20vh;
+	padding-right:20vh;
+	top:0px;
+	width:100%;
+	position:fixed;
+}
+
+.btn {
+}
+
+.btn img {
+	max-width:100%;
+	margin:auto;
+}
+
+/*BUTTONS GET REALLY SMALL*/
+
+.btn:hover{
+	color:white;
+	cursor:pointer;
+}
+
+/*Unsure what to do with interaction? Have the text change color? How would I do that with the how the images are set up*/
+
+.about {
+
+}
+
+.about img {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 35%;
+
+}
+
+.next {
+	text-align:center;
+	padding:10px;
+}
+
+.footer {
+	text-align:center;
+}
