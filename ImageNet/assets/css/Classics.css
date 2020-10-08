@@ -12,7 +12,7 @@
 /*ADD BACKGROUND IMAGE*/
 
 body {
-	font-family:Meatball;
+	font-family:'Meatball','fantasy', 'arial';
 	color:white;
 	font-size:2vh;
 	text-shadow: 2px 2px 9px black;
