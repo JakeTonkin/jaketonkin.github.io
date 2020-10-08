@@ -1,9 +1,9 @@
 
 .title {
 	font-family:'Meatball','fantasy', 'arial';
-	font-size:8vh;
+	font-size:9vw;
 	text-align:center;
-	padding-top:25vh;
+	padding-top:12vw;
 	color:white;
 	text-shadow: 2px 2px 9px black;
 }
@@ -15,7 +15,7 @@
 body {
 	font-family:Meatball;
 	color:white;
-	font-size:18px;
+	font-size:2vh;
 	text-shadow: 2px 2px 9px black;
 	background-image: url(../images/BG.png);
 	background-size:100%;
@@ -27,8 +27,8 @@ body {
 .nav {
 	display:flex;
 	justify-content:center;
-	padding-left:20vh;
-	padding-right:20vh;
+	padding-left:20vw;
+	padding-right:20vw;
 	position:fixed;
 }
 
@@ -54,9 +54,9 @@ body {
 .cont {
 	display:flex;
 	flex-wrap:wrap;
-	padding-left:120px;
-	padding-right:120px;
-	align-items:center;
+	padding-left:7vw;
+	padding-right:7vw;
+	align-items:flex-end;
 }
 
 .item{

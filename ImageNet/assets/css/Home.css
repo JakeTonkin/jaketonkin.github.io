@@ -1,9 +1,9 @@
 
 .title {
-	font-family:'Meatball','fantasy', 'arial';
-	font-size:8vh;
+	font-family:'Meatball','fantasy','arial';
+	font-size:5vw;
 	text-align:center;
-	padding-top:25vh;
+	padding-top:12vw;
 	color:white;
 	text-shadow: 2px 2px 9px black;
 }
@@ -12,10 +12,12 @@
 
 /*ADD BACKGROUND IMAGE*/
 
+/*How to embeed custom font into CSS? or is it not worth it*/
+
 body {
 	font-family:Meatball;
 	color:white;
-	font-size:18px;
+	font-size:2vh;
 	text-shadow: 2px 2px 9px black;
 	background-image: url(../images/BG.png);
 	background-size:100%;
