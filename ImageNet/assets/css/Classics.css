@@ -22,6 +22,8 @@ body {
 
 }
 
+/*START NAVIGATION*/
+
 .nav {
 	display:flex;
 	justify-content:center;
@@ -38,13 +40,16 @@ body {
 	margin:auto;
 }
 
-/*BUTTONS GET REALLY SMALL*/
+
 
 .btn:hover{
 	color:white;
 	cursor:pointer;
 }
 
+/*END NAVIGATION*/
+
+/*START CONTAINER*/
 
 .cont {
 	display:flex;
@@ -72,6 +77,10 @@ body {
 	box-shadow: 2px 2px 20px black;
 
 }
+
+/*END CONTAINER*/
+
+/*Footer*/
 
 .next {
 	text-align:center;
