@@ -67,8 +67,10 @@ body {
 
 /*MIX UP THE GRID*/
 
-.item.down {
+.item.edit {
+	margin-bottom:150px;
 }
+
 
 .item img {
 	max-width:100%;
