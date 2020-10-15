@@ -79,6 +79,19 @@ body {
 	padding:10px;
 }
 
+@media only screen and (max-width: 640px) {
+    /* your css of 640 px screen size */
+    .next  {
+	font-size:3vw;
+
+}
 .footer {
 	text-align:center;
+}
+
+@media only screen and (max-width: 640px) {
+    /* your css of 640 px screen size */
+    .footer  {
+	font-size:3vw;
+
 }

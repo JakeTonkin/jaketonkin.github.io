@@ -15,6 +15,7 @@ body {
 	font-family:'arial';
 	color:white;
 	font-size:2vw;
+	text-align:center;
 	text-shadow: 2px 2px 9px black;
 	background-image: url(../images/BG.png);
 	background-size:100%;
@@ -63,7 +64,9 @@ body {
 	padding:12px;
 	display:block;
 	text-align:center;
+
 }
+
 
 /*MIX UP THE GRID*/
 
@@ -78,6 +81,23 @@ body {
 
 }
 
+@media only screen and (max-width: 640px) {
+    /* your css of 640 px screen size */
+    .item img {
+	width:115%;
+	max-width:500%;
+}
+
+@media only screen and (max-width: 640px) {
+    /* your css of 640 px screen size */
+    .item  {
+	padding:15px;
+
+}
+
+
+}
+
 /*END CONTAINER*/
 
 /*Footer*/
@@ -87,7 +107,21 @@ body {
 	padding:10px;
 }
 
+@media only screen and (max-width: 640px) {
+    /* your css of 640 px screen size */
+    .next  {
+	font-size:3vw;
+
+}
+
 .footer {
 	text-align:center;
 	padding:10px;
+}
+
+@media only screen and (max-width: 640px) {
+    /* your css of 640 px screen size */
+    .footer  {
+	font-size:3vw;
+
 }
