@@ -1,6 +1,6 @@
 
 .title {
-	font-family:"Arial Black";
+	font-family:"Arial Black",arial;
 	font-size:5vw;
 	text-align:center;
 	padding-top:12vw;
@@ -17,12 +17,13 @@
 body {
 	font-family:'arial';
 	color:white;
+	text-align:center;
 	font-size:2vw;
 	text-shadow: 2px 2px 9px black;
 	background-image: url(../images/BG.png);
 	background-size:100%;
-
 }
+
 
 /*START NAVIGATION*/
 
@@ -58,8 +59,16 @@ body {
 	display: block;
   margin-left: auto;
   margin-right: auto;
-  max-width: 35%;
+  width:35vw;
+ 
 
+
+}
+
+@media only screen and (max-width: 640px) {
+    /* your css of 640 px screen size */
+    .about img {
+  width:75%;
 }
 
 /*FOOTER*/
