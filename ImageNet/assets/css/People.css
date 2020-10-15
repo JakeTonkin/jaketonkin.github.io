@@ -1,50 +1,60 @@
+
 .title {
-	font-family:arial;
-	font-size:50px;
-	
+	font-family:"Arial Black";
+	font-size:9vw;
+	text-align:center;
+	padding-top:12vw;
+	color:white;
+	text-shadow: 2px 2px 9px black;
 }
 
-.bg img {
-	max-width:100%;
-	margin:auto;
-	background-image:
-}
+
+/*ADD BACKGROUND IMAGE*/
 
 body {
-	font-family:arial;
-	font-size:18px;
+	font-family:'arial';
+	color:white;
+	font-size:2vw;
+	text-shadow: 2px 2px 9px black;
+	background-image: url(../images/BG.png);
+	background-size:100%;
+
 }
+
+/*START NAVIGATION*/
 
 .nav {
 	display:flex;
-	justify-content:space-around;
-	background-color:lightgrey;
-	box-shadow: 0px 0px 10px 10px lightgrey;
+	justify-content:center;
+	padding-left:20vw;
+	padding-right:20vw;
 	position:fixed;
-	top:0px;
-	left:0px;
-	width:100%;
 }
 
 .btn {
-	border:1px solid black;
-	padding:10px; 
-	margin: 10px;
-	border-radius:10px;
-
 }
 
+.btn img {
+	max-width:100%;
+	margin:auto;
+}
+
+
+
 .btn:hover{
-	background-color:black;
 	color:white;
 	cursor:pointer;
 }
 
+/*END NAVIGATION*/
+
+/*START CONTAINER*/
+
 .cont {
 	display:flex;
 	flex-wrap:wrap;
-	padding-left:100px;
-	padding-right:100px;
+	padding-left:7vw;
+	padding-right:7vw;
 	align-items:flex-end;
 }
 
@@ -55,11 +65,23 @@ body {
 	text-align:center;
 }
 
+/*MIX UP THE GRID*/
+
+.item.edit {
+	margin-bottom:150px;
+}
+
+
 .item img {
 	max-width:100%;
 	margin:auto;
-	padding-bottom:7px;
+	box-shadow: 2px 2px 20px black;
+
 }
+
+/*END CONTAINER*/
+
+/*Footer*/
 
 .next {
 	text-align:center;
@@ -68,4 +90,5 @@ body {
 
 .footer {
 	text-align:center;
+	padding:10px;
 }

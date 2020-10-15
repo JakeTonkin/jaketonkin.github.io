@@ -1,6 +1,6 @@
 
 .title {
-	font-family:'Meatball','fantasy','arial';
+	font-family:"Arial Black";
 	font-size:5vw;
 	text-align:center;
 	padding-top:12vw;
@@ -15,9 +15,9 @@
 /*How to embeed custom font into CSS? or is it not worth it*/
 
 body {
-	font-family:'Meatball','fantasy','arial';
+	font-family:'arial';
 	color:white;
-	font-size:2vh;
+	font-size:2vw;
 	text-shadow: 2px 2px 9px black;
 	background-image: url(../images/BG.png);
 	background-size:100%;
@@ -29,10 +29,8 @@ body {
 .nav {
 	display:flex;
 	justify-content:center;
-	padding-left:20vh;
-	padding-right:20vh;
-	top:0px;
-	width:100%;
+	padding-left:20vw;
+	padding-right:20vw;
 	position:fixed;
 }
 

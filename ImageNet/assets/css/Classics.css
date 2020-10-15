@@ -1,6 +1,6 @@
 
 .title {
-	font-family:'Meatball','fantasy', 'arial';
+	font-family:"Arial Black";
 	font-size:9vw;
 	text-align:center;
 	padding-top:12vw;
@@ -12,9 +12,9 @@
 /*ADD BACKGROUND IMAGE*/
 
 body {
-	font-family:'Meatball','fantasy', 'arial';
+	font-family:'arial';
 	color:white;
-	font-size:2vh;
+	font-size:2vw;
 	text-shadow: 2px 2px 9px black;
 	background-image: url(../images/BG.png);
 	background-size:100%;
@@ -70,7 +70,6 @@ body {
 .item.edit {
 	margin-bottom:150px;
 }
-
 
 .item img {
 	max-width:100%;
