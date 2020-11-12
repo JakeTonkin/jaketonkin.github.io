@@ -1,0 +1,99 @@
+body{
+	background-color:black;
+	color:white;
+	font-size:40px;
+	margin-left:1vw;
+}
+
+h1 {
+	font-size:5vw;
+	line-height:10vw;
+	letter-spacing:auto;
+	text-align:center;
+	color:red;
+	font-family: alternate-gothic-compressed, sans-serif;
+}
+
+h2 {
+	font-family: alternate-gothic-compressed, sans-serif;
+	font-size:80px;
+	color:white;
+	line-height:75px;
+	text-align:right;
+	margin-bottom:50px;
+}
+
+h3 {
+	font-size:60px;
+	line-height:62px;
+}
+
+p {
+	font-size:35px;
+	margin-bottom:50px;
+}
+
+a {
+color:grey;
+text-decoration:none;
+}
+
+img {
+	max-width: 100%;
+	image-orientation: from-image;
+
+}
+
+
+.cont{
+	display: flex;
+	margin-top:10px;
+	align-items: center;
+	max-width:100%;
+}
+
+.body1 {
+	width:70%;
+	margin-left:200px;
+	margin-right:200px;
+}
+
+.quote {
+	font-family: alternate-gothic-compressed, sans-serif;
+	color:red;
+	font-size:80px;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	padding:20px;
+	margin-bottom:60px;
+	border-top: 4px solid white;
+	border-bottom: 4px solid white;
+
+
+}
+
+.cont2{
+display:flex;
+	margin-top:10px;
+}
+
+/*WHY IS THE TEXT SO FAR TO THE RIGHT???*/
+.quote.w2o2 {
+	font-family: alternate-gothic-compressed, sans-serif;
+	color:red;
+	font-size:90px;
+	margin-top:60px;
+	text-align:center;
+}
+
+
+.video {
+	width:175%;
+}
+
+.body.w3o2 {
+	width:50%;
+	padding:10px;
+}
+

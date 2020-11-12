@@ -1,0 +1,90 @@
+body{
+	background-color:black;
+	color:white;
+	font-size:40px;
+	margin-left:1vw;
+}
+
+h1 {
+	font-size:12vw;
+	line-height:10vw;
+	letter-spacing:auto;
+	text-align:center;
+	margin-top:5vw;
+	color:red;
+	font-family: alternate-gothic-compressed, sans-serif;
+}
+
+h2 {
+	font-family: alternate-gothic-compressed, sans-serif;
+	font-size:80px;
+	color:grey;
+	line-height:75px;
+	text-align:right;
+}
+
+h3 {
+	font-size:60px;
+	line-height:62px;
+}
+
+p {
+	font-size:40px;
+	margin-bottom:50px;
+
+
+}
+
+a {
+color:grey;
+text-decoration:none;
+}
+
+img {
+
+}
+
+.cont{
+	display: flex;
+	margin-top:10px;
+}
+
+.body.w1o2 {
+	width:70%;
+}
+
+.quote.w1o2 {
+	font-family: alternate-gothic-compressed, sans-serif;
+	color:red;
+	font-size:90px;
+	margin-top:60px;
+	text-align:center;
+	width:50%;
+}
+
+.cont2{
+display:flex;
+	margin-top:10px;
+}
+
+/*WHY IS THE TEXT SO FAR TO THE RIGHT???*/
+.quote.w2o2 {
+	font-family: alternate-gothic-compressed, sans-serif;
+	color:red;
+	font-size:90px;
+	margin-top:60px;
+	text-align:center;
+}
+
+.body.w2o2 {
+	margin-top:10vw;
+}
+
+.video {
+	width:175%;
+}
+
+.body.w3o2 {
+	width:50%;
+}
+
