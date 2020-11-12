@@ -21,16 +21,22 @@ h2 {
 	line-height:75px;
 	text-align:right;
 	margin-bottom:50px;
+
 }
 
 h3 {
-	font-size:60px;
-	line-height:62px;
+	font-size:5vw;
+	line-height:10vw;
+	letter-spacing:auto;
+	text-align:left;
+	padding-left:50px;
+	color:red;
+	font-family: alternate-gothic-compressed, sans-serif;
 }
 
 p {
 	font-size:35px;
-	margin-bottom:50px;
+	margin-bottom:20px;
 }
 
 a {
@@ -44,6 +50,10 @@ img {
 
 }
 
+.border {
+border-top: 4px solid white;
+	border-bottom: 4px solid white;
+}
 
 .cont{
 	display: flex;
@@ -58,6 +68,17 @@ img {
 	margin-right:200px;
 }
 
+.body3 {
+	width:70%;
+	margin-left:200px;
+	margin-right:200px;
+	padding-bottom:40px;
+}
+
+.bigv {
+	width:100%;
+}
+
 .quote {
 	font-family: alternate-gothic-compressed, sans-serif;
 	color:red;
@@ -66,16 +87,24 @@ img {
 	margin-left:auto;
 	margin-right:auto;
 	padding:20px;
-	margin-bottom:60px;
 	border-top: 4px solid white;
 	border-bottom: 4px solid white;
+}
 
-
+.quote2 {
+	font-family: alternate-gothic-compressed, sans-serif;
+	color:white;
+	font-size:80px;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	padding:20px;
 }
 
 .cont2{
 display:flex;
 	margin-top:10px;
+	max-width:100%;
 }
 
 /*WHY IS THE TEXT SO FAR TO THE RIGHT???*/
@@ -89,7 +118,13 @@ display:flex;
 
 
 .video {
-	width:175%;
+	max-width:175%;
+	image-orientation: from-image;
+	width:500%;
+}
+
+.vids {
+	width:90%;
 }
 
 .body.w3o2 {
