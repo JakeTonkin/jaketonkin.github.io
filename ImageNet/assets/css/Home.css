@@ -1,6 +1,6 @@
 
 .title {
-	font-family:"Arial Black",arial;
+	font-family:meatball;
 	font-size:5vw;
 	text-align:center;
 	padding-top:12vw;
@@ -15,7 +15,7 @@
 /*How to embeed custom font into CSS? or is it not worth it*/
 
 body {
-	font-family:'arial';
+	font-family:meatball;
 	color:white;
 	text-align:center;
 	font-size:2vw;

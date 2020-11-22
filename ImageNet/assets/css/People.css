@@ -1,6 +1,6 @@
 
 .title {
-	font-family:"Arial Black";
+	font-family:meatball;
 	font-size:9vw;
 	text-align:center;
 	padding-top:12vw;
@@ -12,7 +12,7 @@
 /*ADD BACKGROUND IMAGE*/
 
 body {
-	font-family:'arial';
+	font-family:meatball;
 	color:white;
 	font-size:2vw;
 	text-shadow: 2px 2px 9px black;

@@ -1,0 +1,54 @@
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * alternate-gothic-compressed:
+ *   - http://typekit.com/eulas/00000000000000003b9b4425
+ * new-spirit:
+ *   - http://typekit.com/eulas/00000000000000003b9b49a8
+ *   - http://typekit.com/eulas/00000000000000003b9b49ab
+ * new-spirit-condensed:
+ *   - http://typekit.com/eulas/00000000000000003b9b49ad
+ *   - http://typekit.com/eulas/00000000000000003b9b49b0
+ *
+ * © 2009-2020 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2020-10-29 22:06:56 UTC"}*/
+
+@import url("https://p.typekit.net/p.css?s=1&k=ghr2rki&ht=tk&f=44896.45692.45695.45697.45700&a=51202667&app=typekit&e=css");
+
+@font-face {
+font-family:"alternate-gothic-compressed";
+src:url("https://use.typekit.net/af/2b4f0a/00000000000000003b9b4425/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("woff2"),url("https://use.typekit.net/af/2b4f0a/00000000000000003b9b4425/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("woff"),url("https://use.typekit.net/af/2b4f0a/00000000000000003b9b4425/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:600;
+}
+
+@font-face {
+font-family:"new-spirit";
+src:url("https://use.typekit.net/af/a63fdd/00000000000000003b9b49a8/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/a63fdd/00000000000000003b9b49a8/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/a63fdd/00000000000000003b9b49a8/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;
+}
+
+@font-face {
+font-family:"new-spirit";
+src:url("https://use.typekit.net/af/459b0e/00000000000000003b9b49ab/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/459b0e/00000000000000003b9b49ab/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/459b0e/00000000000000003b9b49ab/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;
+}
+
+@font-face {
+font-family:"new-spirit-condensed";
+src:url("https://use.typekit.net/af/e677e3/00000000000000003b9b49ad/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/e677e3/00000000000000003b9b49ad/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/e677e3/00000000000000003b9b49ad/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;
+}
+
+@font-face {
+font-family:"new-spirit-condensed";
+src:url("https://use.typekit.net/af/e8d84f/00000000000000003b9b49b0/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/e8d84f/00000000000000003b9b49b0/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/e8d84f/00000000000000003b9b49b0/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;
+}
+
+.tk-alternate-gothic-compressed { font-family: "alternate-gothic-compressed",sans-serif; }
+.tk-new-spirit { font-family: "new-spirit",serif; }
+.tk-new-spirit-condensed { font-family: "new-spirit-condensed",serif; }
