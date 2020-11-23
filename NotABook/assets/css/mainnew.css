@@ -194,6 +194,9 @@ h4 {
 	padding-left:25px;
 }
 
+.btn2 a {
+	font-size:3vw;
+}
 a {
 	font-size:5vw;
 	letter-spacing:auto;
@@ -201,6 +204,12 @@ a {
 	color:white;
 	font-family: alternate-gothic-compressed, sans-serif;
 
+}
+
+a.cr{
+	font-size:3vw;
+	padding-bottom:10px;
+	text-align:right;
 }
 
 a:hover{
